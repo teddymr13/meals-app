@@ -9,7 +9,7 @@ const Categories = () => {
     fetchCategories();
   }, [fetchCategories]);
   return (
-    <div className='categories'></div>
+    <div className='categories'>
       {categories.map((category) => (
         <div key={category.idCategory}>
           <img src={category.strCategoryThumb} alt='#' />
