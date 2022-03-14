@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #e81717;
+  color: #ffff;
+  height: 10vh;
+
+  p {
+    font-size: 18px;
+    span {
+      color: #f1a20f;
+    }
+  }
+}
